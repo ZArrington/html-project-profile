@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=BIZ UDPGothic');
+
+
+*{
+    background-color:#f5f5f5
+}
+
+#title{
+    color:#CC9C80;
+    font-family:'BIZ UDPGothic', 'Helvetica', 'Arial';
+    font-size:50px;
+    text-align:center;
+    font-weight: 700;
+}
+h1{
+    color:#CC9C80;
+    font-family:'BIZ UDPGothic', 'Helvetica', 'Arial';
+    font-size:50px;
+    text-align:center;
+    font-weight: 700;
+}
+/* navigation bar */
+#navigation{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+
+#navigation a{
+    color:#CC9C80;
+    height:50px;
+    font-family:'Helvetica', 'Arial';
+    font-size:20px;
+    text-decoration:none;
+    padding:8px;
+}
+#navigation a:hover{
+    color:#A45C40;
+}
+#navigation a:active {
+    color:#A45C40;
+  }
+#aboutmehome{
+    height:15rem;
+    font-family:'BIZ UDPMincho','Helvetica', 'sans-serif';
+    color:#2D2E2D;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    margin:0;
+}
+
+#scrolling-box{
+    height:300px;
+    width:600px;
+    overflow:scroll;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    margin:0;
+}
+/*project cards*/
+.projects-container {
+    height: 300px;
+    width:600px;
+    padding-top:5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    margin:0;
+    
+  }
+  
+  .project-card, .results-graph {
+    border-radius: .5em;
+    box-shadow: 1px 2px 2px gray;
+    background-color: #CC9C80;
+
+    
+  }
+  
+  .project-card {
+    padding: 1rem;
+    width: 15rem;
+    margin: 1rem 1rem 1rem 0; /* No left margin */
+    
+  }
+  .project-card p{
+    background-color:#CC9C80;
+  }
+  .project-card h3{
+    background-color:#CC9C80;
+  }
+  .project-card img {
+    max-width: calc(100% - .1rem);
+    display: block;
+    margin-bottom: .5rem;
+    height: 200px;
+    width:300px;
+    object-fit:cover;
+  }
+h2{
+    color:#CC9C80;
+    font-family:'BIZ UDPGothic', 'Helvetica', 'Arial';
+    margin-top:2rem;
+    font-size:25px;
+    text-align:center;
+    font-weight: 700;
+}
+footer a img{
+    display:flex;
+    justify-content:flex-start;
+    background-color:#A45C40;
+    color:#2D2E2D;
+    object-fit:contain;
+}
