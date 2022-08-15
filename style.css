@@ -100,6 +100,7 @@ h1{
   }
   .project-card p{
     background-color:#CC9C80;
+    
   }
   .project-card h3{
     background-color:#CC9C80;
@@ -143,13 +144,14 @@ footer p{
 }
 footer{
     background-color:#A45C40;
-    width:100%;
+    left:0;
+    right:0;
     clear:both;
     bottom:0;
     position:absolute;
     padding:5px;
-    padding-top:7px;
-    
+    padding-top:5px;
+    margin-top:2rem;
 }
 footer a:link{
     color:#2D2E2D;
@@ -162,10 +164,11 @@ footer a:visited {
     text-decoration: none;
 }
 /*Media Query */
-@media(max-width:768px){
+@media screen and (max-width:768px){
     #aboutmehome{
         overflow:scroll;
         height:250px;
+        margin-top:2rem;
     }
     #navigation{ 
       overflow:scroll;
@@ -173,18 +176,24 @@ footer a:visited {
       align-items:center;
       flex-direction:row;
     }
-    .project-card{
-      width:fit-content;
-    }
-   #scrolling-box{
+    #scrolling-box{
      overflow:auto;
-     margin-left:10rem;
+     overflow-x:scroll;
+     width:450px;
+     padding-bottom:-5rem;
    }
    .projects-container{
     height:370px;
     overflow:auto;
    }
    .project-card{
-    
+    margin-left:10.5rem;
+    padding-bottom:10rem;
+    /* display:flex;
+    flex-direction:column;
+    justify-content:center; */
    }
+   .project-card p{
+    overflow-wrap:break-word;
+  }
 }
