@@ -102,6 +102,18 @@ h1{
     background-color:#CC9C80;
     
   }
+  .project-card a{
+    background-color:#CC9C80;
+  }
+  .project-card a:hover{
+    color:#F6EEE0
+  }
+  .project-card a:link{
+    color:#2D2E2D;
+  }
+  .project-card a:visited{
+    color:#2D2E2D;
+  }
   .project-card h3{
     background-color:#CC9C80;
   }
@@ -188,10 +200,6 @@ footer a:visited {
    }
    .project-card{
     margin-left:10.5rem;
-    padding-bottom:10rem;
-    /* display:flex;
-    flex-direction:column;
-    justify-content:center; */
    }
    .project-card p{
     overflow-wrap:break-word;
