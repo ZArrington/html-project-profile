@@ -100,7 +100,9 @@ h1{
   }
   .project-card p{
     background-color:#CC9C80;
-    
+  }
+  .project-card u{
+    background-color:#CC9C80;
   }
   .project-card a{
     background-color:#CC9C80;
@@ -204,4 +206,12 @@ footer a:visited {
    .project-card p{
     overflow-wrap:break-word;
   }
+  @media only screen and (min-device-width: 480px){
+    #scrolling-box{
+      overflow:auto;
+      overflow-x:scroll;
+      width:10em;
+      padding-bottom:-5rem;
+  }
+}
 }
